@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tarok</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="plays">Inesrt maximum number of plays:</string>
+    <string name="winScore">Insert winning score:</string>
+    <string name="probability">Insert the winning probability of each game:</string>
+    <string name="gameOn">Start game</string>
+    <string name="title_activity_games">Games</string>
+    <string name="column1">[num](game,player,diff)</string>
+    <string name="stats">[stat1, stat2, stat3]</string>
+    <string name="title_activity_game_play">GamePlay</string>
+
+</resources>
