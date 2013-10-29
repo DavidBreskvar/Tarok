@@ -37,8 +37,8 @@ public class Games extends SherlockFragmentActivity {
 		highestScore = 0;
 		gameBuilder = new StringBuilder();
 		playerBuilder = new StringBuilder();
-		playerBuilder.append("A   B   C \n--------------------\n");
-		gameBuilder.append("\n\n");
+		playerBuilder.append("A   B   C \n0   0   0\n--------------------\n");
+		gameBuilder.append("\n\n\n");
 	
 		for (int i = 0; (i < plays) && (score >= highestScore); i ++) {
 			Log.i("LOOP", "started for loop");

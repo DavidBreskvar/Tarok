@@ -8,6 +8,9 @@
 package com.dbug.seminarska.tarok;
 
 public final class R {
+    public static final class array {
+        public static final int cardDeck=0x7f0b0000;
+    }
     public static final class attr {
         /**  Custom divider drawable to use for elements in the action bar. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
@@ -953,26 +956,28 @@ containing a value of this type.
         public static final int abs__textButton=0x7f040013;
         public static final int abs__title=0x7f04001b;
         public static final int abs__up=0x7f04000b;
-        public static final int action_settings=0x7f04003b;
+        public static final int action_settings=0x7f04003d;
+        public static final int allCards=0x7f040036;
+        public static final int card3=0x7f040039;
         public static final int disableHome=0x7f040009;
         public static final int edit_query=0x7f040026;
         public static final int gameStat=0x7f040033;
-        public static final int gamesList=0x7f040035;
         public static final int homeAsUp=0x7f040006;
         public static final int listMode=0x7f040002;
         public static final int normal=0x7f040001;
-        public static final int numPlays=0x7f040036;
+        public static final int numPlays=0x7f040037;
+        public static final int onlineGame=0x7f04003c;
         public static final int playerStat=0x7f040034;
         public static final int showCustom=0x7f040008;
         public static final int showHome=0x7f040005;
         public static final int showTitle=0x7f040007;
-        public static final int startGame=0x7f04003a;
+        public static final int startGame=0x7f04003b;
         public static final int tabMode=0x7f040003;
-        public static final int textView3=0x7f040038;
         public static final int useLogo=0x7f040004;
-        public static final int winChance=0x7f040039;
-        public static final int winLimit=0x7f040037;
+        public static final int winChance=0x7f04003a;
+        public static final int winLimit=0x7f040038;
         public static final int wrap_content=0x7f040000;
+        public static final int yourCards=0x7f040035;
     }
     public static final class integer {
         public static final int abs__max_action_buttons=0x7f080000;
@@ -1000,16 +1005,16 @@ containing a value of this type.
         public static final int abs__search_view=0x7f030013;
         public static final int abs__simple_dropdown_hint=0x7f030014;
         public static final int activity_game_play=0x7f030015;
-        public static final int activity_games=0x7f030016;
-        public static final int listview=0x7f030017;
+        public static final int activity_online_game=0x7f030016;
+        public static final int cards=0x7f030017;
         public static final int play_tarok=0x7f030018;
         public static final int sherlock_spinner_dropdown_item=0x7f030019;
         public static final int sherlock_spinner_item=0x7f03001a;
     }
     public static final class menu {
-        public static final int game_play=0x7f0b0000;
-        public static final int games=0x7f0b0001;
-        public static final int play_tarok=0x7f0b0002;
+        public static final int games=0x7f0c0000;
+        public static final int online_game=0x7f0c0001;
+        public static final int play_tarok=0x7f0c0002;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1056,11 +1061,13 @@ containing a value of this type.
         public static final int column1=0x7f090015;
         public static final int gameOn=0x7f090013;
         public static final int hello_world=0x7f09000f;
+        public static final int playOnline=0x7f090018;
         public static final int plays=0x7f090010;
         public static final int probability=0x7f090012;
         public static final int stats=0x7f090016;
         public static final int title_activity_game_play=0x7f090017;
         public static final int title_activity_games=0x7f090014;
+        public static final int title_activity_online_game=0x7f090019;
         public static final int winScore=0x7f090011;
     }
     public static final class style {

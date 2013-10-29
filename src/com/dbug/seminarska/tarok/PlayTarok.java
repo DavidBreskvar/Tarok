@@ -13,7 +13,7 @@ import com.actionbarsherlock.view.Menu;
 
 public class PlayTarok extends SherlockFragmentActivity {
 
-	Button start;
+	Button start, play;
 	EditText plays, score, chance;
 	int numPlays, maxScore;
 	double chanceProb;
@@ -27,6 +27,7 @@ public class PlayTarok extends SherlockFragmentActivity {
 		plays = (EditText)findViewById(R.id.numPlays);
 		score = (EditText)findViewById(R.id.winLimit);
 		chance = (EditText)findViewById(R.id.winChance);
+		play = (Button)findViewById(R.id.onlineGame);
 		
 		start.setOnClickListener(new OnClickListener() {
 			
@@ -42,6 +43,16 @@ public class PlayTarok extends SherlockFragmentActivity {
 				game.putExtra("score", maxScore);
 				game.putExtra("chance", chanceProb);
 				startActivity(game);
+			}
+		});
+		
+		play.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent i = new Intent(PlayTarok.this, OnlineGame.class);
+				startActivity(i);
+				
 			}
 		});
 	}

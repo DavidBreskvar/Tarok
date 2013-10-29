@@ -12,5 +12,64 @@
     <string name="column1">[num](game,player,diff)</string>
     <string name="stats">[stat1, stat2, stat3]</string>
     <string name="title_activity_game_play">GamePlay</string>
+    <string name="playOnline">Play Online</string>
+    <string name="title_activity_online_game">OnlineGame</string>
+    
+    <string-array name="cardDeck">
+        <item>pik 7</item>
+		<item>pik 8</item>
+		<item>pik 9</item>
+		<item>pik 10</item>
+		<item>križ 7</item>
+		<item>križ 8</item>
+		<item>križ 9</item>
+		<item>križ 10</item>
+		<item>kara 4</item>
+		<item>kara 3</item>
+		<item>kara 2</item>
+		<item>kara 1</item>
+		<item>srce 4</item>
+		<item>srce 3</item>
+		<item>srce 2</item>
+		<item>srce 1</item>
+		<item>pik pub</item>
+		<item>pik kavalj</item>
+		<item>pik dama</item>
+		<item>pik kralj</item>
+		<item>križ pub</item>
+		<item>križ kavalj</item>
+		<item>križ dama</item>
+		<item>križ kralj</item>
+		<item>srce pub</item>
+		<item>srce kavalj</item>
+		<item>srce dama</item>
+		<item>srce kralj</item>
+		<item>kara pub</item>
+		<item>kara kavalj</item>
+		<item>kara dama</item>
+		<item>kara kralj</item>
+		<item>pagat</item>
+		<item>tarok 2</item>
+		<item>tarok 3</item>
+		<item>tarok 4</item>
+		<item>tarok 5</item>
+		<item>tarok 6</item>
+		<item>tarok 7</item>
+		<item>tarok 8</item>
+		<item>tarok 9</item>
+		<item>tarok 10</item>
+		<item>tarok 11</item>
+		<item>tarok 12</item>
+		<item>tarok 13</item>
+		<item>tarok 14</item>
+		<item>tarok 15</item>
+		<item>tarok 16</item>
+		<item>tarok 17</item>
+		<item>tarok 18</item>
+		<item>tarok 19</item>
+		<item>tarok 20</item>
+		<item>mond</item>
+		<item>škis</item>
+    </string-array>
 
 </resources>

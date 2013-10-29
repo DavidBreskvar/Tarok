@@ -30,6 +30,10 @@
             android:name="com.dbug.seminarska.tarok.GamePlay"
             android:label="@string/title_activity_game_play" >
         </activity>
+        <activity
+            android:name="com.dbug.seminarska.tarok.OnlineGame"
+            android:label="@string/title_activity_online_game" >
+        </activity>
     </application>
 
 </manifest>

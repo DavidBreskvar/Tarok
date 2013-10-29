@@ -48,7 +48,7 @@
         android:inputType="number" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/card3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
@@ -70,6 +70,14 @@
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:text="@string/gameOn" />
+
+    <Button
+        android:id="@+id/onlineGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/playOnline" />
 
 </LinearLayout>
 </ScrollView>
