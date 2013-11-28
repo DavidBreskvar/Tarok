@@ -34,6 +34,14 @@
             android:name="com.dbug.seminarska.tarok.OnlineGame"
             android:label="@string/title_activity_online_game" >
         </activity>
+        <activity
+            android:name="com.dbug.seminarska.tarok.Selections"
+            android:label="@string/title_activity_selections" >
+        </activity>
+        <activity
+            android:name="com.dbug.seminarska.tarok.DialogPlay"
+            android:label="@string/title_activity_dialog_play" android:theme="@style/Theme.Sherlock.Light">
+        </activity>
     </application>
 
 </manifest>
